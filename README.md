@@ -20,5 +20,14 @@ This book is a foundational guide designed particularly for beginners looking fo
 - Get an understanding of the current limitations of RAG and an exposure to popular emerging techniques for further exploration
 
 
+__Note: This is a WIP repository__
+
+Code Snippets are organised in the Chapters Directory by Chapters [(./Chapters)](./Chapters)
+
+
+
+
+
+
 
 
