@@ -1,9 +1,14 @@
-# A Simple Introduction to RAG
- This repository is the source code for examples and illustrations discussed in the book - A Simple Introduction to Retrieval Augmented Generation
+# A Simple Introduction to Retrieval Augmented Generation
+ This repository is the source code for examples and illustrations discussed in the book - [A Simple Introduction to Retrieval Augmented Generation](https://mng.bz/8wdg)
+
+<a href="https://mng.bz/8wdg" target="_blank">
+    <img src="./Assets/Images/MEAP-HI.png" alt="New MEAP" style="width: 50%;" />
+</a>
 
  Retrieval Augmented Generation, or RAG, stands as a pivotal technique shaping the landscape of the applied generative AI. A novel concept introduced by Lewis et al in their seminal paper Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (https://arxiv.org/abs/2005.11401), RAG has swiftly emerged as a cornerstone, enhancing reliability and trustworthiness in the outputs from Large Language Models (LLMs)
 
-
+About the book
+---
 This book is a foundational guide designed particularly for beginners looking for an easy, yet comprehensive introduction to Retrieval Augmented Generation. This book does not go deep into the technical nitty-gritties of RAG rather provides an overview. Data Scientists, Data Engineers, ML Engineers, Software Developers, Technology Leaders, Students and Academicians interested in generative AI powered application development will find this book valuable. Upon completing this book, you can expect to:
 
 - Develop a solid understanding of RAG fundamentals, the components of a RAG enabled system and its practical applications.
@@ -19,10 +24,90 @@ This book is a foundational guide designed particularly for beginners looking fo
 
 - Get an understanding of the current limitations of RAG and an exposure to popular emerging techniques for further exploration
 
+__Note: This book is still in development and is scheduled to be completed in the next few months__
 
-__Note: This is a WIP repository__
+Link to the [official source code repository](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG)
 
-Code Snippets are organised in the Chapters Directory by Chapters [(./Chapters)](./Chapters)
+Link to [join the MEAP at manning.com](https://mng.bz/8wdg)
+
+To download a copy of this repository, click on the [Download ZIP](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG/archive/refs/heads/main.zip) button or execute the following command in your terminal:
+
+```
+git clone https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG.git
+```
+
+
+Table of Contents
+---
+
+The first three chapters of the book have been released as a part of the Manning Early Access Program. You can [join the MEAP here](https://mng.bz/8wdg)
+
+- Chapter 1 - Large Language Models and the Need for Retrieval Augmented Generation [First draft Released]
+
+- Chapter 2 - RAG-enabled systems and their design [First draft Released]
+
+- Chapter 3 - Indexing Pipeline : Creating a knowledge base for RAG based applications [First draft Released] [Notebook](./Chapters/Chapter-03/indexing_pipeline.ipynb)
+
+- Chapter 4 - Generation Pipeline: Real time interaction for contextual responses
+
+- Chapter 5 - RAG Evaluation : Checking accuracy, relevance and faithfulness
+
+- Chapter 6 - Evolving RAGOps Stack : Technologies that make RAG possible
+
+- Chapter 7 - Progression of RAG systems : Naive to Advanced to Modular
+
+- Chapter 8 - Nuances : Comparison with fine-tuning, multimodal and agentic RAG
+
+- Chapter 9 - Cutting Edge : Best practices and further exploration
+
+Why join MEAP?
+---
+By joining the Manning Early Access Program, you'll get:
+- Immediate access to the book's current draft and all future updates
+- A chance to provide feedback and shape the final content
+- Exclusive discounts and early-bird offers
+
+Code
+---
+Code Snippets are organised in the Chapters Directory by [Chapters](./Chapters)
+
+
+
+- Chapter 1 - Does not have any code
+
+- Chapter 2 - Does not have any code
+
+- [Chapter 3 - This notebook](./Chapters/Chapter-03/indexing_pipeline.ipynb) outlines the indexing pipeline. 
+
+    A knowledge base is created for the 2023 Cricket World Cup based on the Wikipedia Article on the topic. We use __AsyncHtmlLoader__ and __Html2TextTransformer__ to load the article, chunk the text using __RecursiveCharacterTextSplitter__, use __text-embedding-3-large__ from OpenAI to convert chunks into vectors and use __FAISS__ as the vector index to store the embeddings.
+
+- [Chapter 4 - This notebook](./Chapters/Chapter-04/indexing_pipeline.ipynb) outlines the generation pipeline. 
+
+    We use the knowledge base created in Chapter 03 on the wikipedia article on 2023 Cricket World Cup. We load the __FAISS__ index and use the __similarity search__ function to retrieve chunks. We then Augment the user query with the retrieved chunk and use __GPT 4o__ model from OpenAI to generate the response.
+
+    This notebook also includes functions that can be used to generate answers for different queries that a user may want to ask.
+
+    Additionally, this chapter contains [another notebook](./Chapters/Chapter-04/xtra_tfidf_bm25_retriever.ipynb) that shows the usage of TF-IDF and BM25 as retriever algorithms.
+
+- Chapter 5 - This will be released next and will showcase evaluation of the created knowledge base and the generation pipeline using the RAGAs and ARES framework.
+
+__Note: This is a WIP repository and subsequent chapters will be released on an ongoing basis__
+
+Setup
+---
+If you already have a Python installed on your machine, you can install the package requirements from the ../requirements.txt by executing the following pip installation command from the root directory of this code repository:
+
+```
+pip install -r requirements.txt
+```
+
+The notebooks in this repository need __python version > 3.11.1__
+___
+
+
+
+
+
 
 
 
