@@ -102,7 +102,36 @@ pip install -r requirements.txt
 ```
 
 The notebooks in this repository need __python version > 3.11.1__
-___
+
+Feedback & Contribution
+---
+I'd love to hear what you think about the code here and the book in general. I appreciate and welcome all feedback. You can either post your thoughts, questions, critiques and ideas in the [Discussion forum of this repo](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG/discussions) or if you've purchased the [MEAP](https://mng.bz/8wdg) (https://mng.bz/8wdg) you can also provide your feedback on the [livebook on manning.com](https://livebook.manning.com/book/a-simple-guide-to-retrieval-augmented-generation). 
+
+If you notice any errors or issues with the code, please raise an [issue here in the repo](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG/issues)
+
+About me
+---
+Hi! I'm Abhinav! I am an entrepreneur and Vice President of Artificial Intelligence at Yarnit. I have spent over 15 years consulting and leadership roles in data science, machine learning and AI. My current focus is in the applied Generative AI domain focussing on solving enterprise needs through contextual intelligence. I'm passionate about AI advancements constantly exploring emerging technologies to push the boundaries and create positive impacts in the world. Let’s build the future, together!
+
+#### If you'd like to chat, I'd be very happy to connect
+
+[![GitHub followers](https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=black&color=orange)](https://github.com/abhinav-kimothi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=orange&color=black)](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=abhinav-kimothi)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=black&color=orange)](https://medium.com/@abhinavkimothi)
+[![Insta](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=orange&color=black)](https://www.instagram.com/akaiworks/)
+[![Mail](https://img.shields.io/badge/email-000000?style=for-the-badge&logo=gmail&logoColor=black&color=orange)](mailto:abhinav.kimothi.ds@gmail.com)
+[![X](https://img.shields.io/badge/Follow-000000?style=for-the-badge&logo=X&logoColor=orange&color=black)](https://twitter.com/abhinav_kimothi)
+[![Linktree](https://img.shields.io/badge/Linktree-000000?style=for-the-badge&logo=linktree&logoColor=black&color=orange)](https://linktr.ee/abhinavkimothi)
+[![Gumroad](https://img.shields.io/badge/Gumroad-000000?style=for-the-badge&logo=gumroad&logoColor=orange&color=black)](https://abhinavkimothi.gumroad.com/)
+
+
+[If you haven't already, please subscribe to the MEAP of A Simple Guide to Retrieval Augmented Generation here](https://mng.bz/8wdg)
+
+<a href="https://mng.bz/8wdg" target="_blank">
+    <img src="./Assets/Images/NewMEAPFooter.png" alt="New MEAP" style="width: 100%;" />
+</a>
+
+---
 
 
 
