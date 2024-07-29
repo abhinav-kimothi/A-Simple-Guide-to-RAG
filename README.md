@@ -48,9 +48,9 @@ The first three chapters of the book have been released as a part of the Manning
 
 - Chapter 3 - Indexing Pipeline : Creating a knowledge base for RAG based applications [First draft Released] [Notebook](./Chapters/Chapter-03/indexing_pipeline.ipynb)
 
-- Chapter 4 - Generation Pipeline: Real time interaction for contextual responses
+- Chapter 4 - Generation Pipeline: Real time interaction for contextual responses [Notebook](./Chapters/Chapter-04/generation_pipeline.ipynb)
 
-- Chapter 5 - RAG Evaluation : Checking accuracy, relevance and faithfulness
+- Chapter 5 - RAG Evaluation : Checking accuracy, relevance and faithfulness [Notebook](./Chapters/Chapter-05/rag_evaluations.ipynb)
 
 - Chapter 6 - Evolving RAGOps Stack : Technologies that make RAG possible
 
@@ -89,16 +89,62 @@ Code Snippets are organised in the Chapters Directory by [Chapters](./Chapters)
 
     Additionally, this chapter contains [another notebook](./Chapters/Chapter-04/xtra_tfidf_bm25_retriever.ipynb) that shows the usage of TF-IDF and BM25 as retriever algorithms.
 
-- Chapter 5 - This will be released next and will showcase evaluation of the created knowledge base and the generation pipeline using the RAGAs and ARES framework.
+- [Chapter 5 - This notebook](./Chapters/Chapter-05/rag_evaluations.ipynb) evaluates the RAG pipeline created in chapters 3 and 4 using the __RAGAS__ framework.
+
+    Additionally, this chapter includes a [notebook](./Chapters/Chapter-05/xtra_benchmarking.ipynb) that uses LangChain Benchmarks to benchmark our RAG pipeline on LangChain QnA docs.
+
+
 
 __Note: This is a WIP repository and subsequent chapters will be released on an ongoing basis__
 
 Setup
 ---
-If you already have a Python installed on your machine, you can install the package requirements from the ../requirements.txt by executing the following pip installation command from the root directory of this code repository:
+
+Clone this repository to your local machine:
+
+```
+git clone https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG.git
+```
+
+Navigate to the cloned repository:
+
+    
+    cd A-Simple-Introduction-to-RAG
+
+It's recommended to use a virtual environment to avoid conflicts with other projects or system-wide Python packages.
+
+Run the following command to create a virtual environment named myenv (you can name it anything you like):
+
+```
+python3 -m venv .myenv
+```
+Activate the Virtual Environment:           
+
+- On Windows, activate the virtual environment by running:
+
+```
+    .myenv\Scripts\activate.bat
+```
+
+- On macOS and Linux, activate it with:
+
+```
+    source venv/bin/activate
+```
+
+Install the package requirements from the requirements.txt by executing the following pip installation command:
+
 
 ```
 pip install -r requirements.txt
+```
+
+_recommended_: Store your API keys in a .env file:
+```
+OPENAI_API_KEY=<YOUR API KEY>
+LANGCHAIN_API_KEY=<YOUR API KEY>
+
+### You can also look at the .\example_dot_env file in this repo for the structure. Remeber to rename to .env
 ```
 
 The notebooks in this repository need __python version > 3.11.1__
