@@ -14,3 +14,9 @@ scikit-learn==1.4.2
 rank_bm25==0.2.2
 python-dotenv
 openai==1.37.0
+ragas==0.1.11
+datasets==2.20.0
+langsmith==0.1.93
+langchainhub==0.1.20
+langchain_benchmarks==0.0.14
+pypdf==4.3.1
