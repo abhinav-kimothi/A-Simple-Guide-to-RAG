@@ -153,3 +153,5 @@ cython_debug/
 
 .myenv
 .env
+requirements 2.txt
+Chapters/Chapter-05/rag_evaluations_2.ipynb
