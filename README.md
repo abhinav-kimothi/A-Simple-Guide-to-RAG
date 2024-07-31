@@ -1,5 +1,5 @@
 # A Simple Guide to Retrieval Augmented Generation
- This repository is the source code for examples and illustrations discussed in the book - [A Simple Guide to Retrieval Augmented Generation](https://mng.bz/8wdg)
+ This repository is the source code for examples and illustrations discussed in the book - [A Simple Guide to Retrieval Augmented Generation](https://mng.bz/8wdg) published by [Manning Publications](https://www.manning.com/?utm_source=kimothi&utm_medium=affiliate&utm_campaign=affiliate&a_aid=kimothi)
 
 <a href="https://mng.bz/8wdg" target="_blank">
     <img src="./Assets/Images/MEAP-HI.png" alt="New MEAP" style="width: 50%;" />
