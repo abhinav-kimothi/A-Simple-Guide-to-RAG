@@ -155,4 +155,4 @@ cython_debug/
 .env
 requirements 2.txt
 temp.ipynb
-/Chapter-06
+/Chapters/Chapter-06
