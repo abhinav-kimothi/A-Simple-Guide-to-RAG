@@ -52,9 +52,9 @@ The first three chapters of the book have been released as a part of the Manning
 
 - Chapter 5 - RAG Evaluation : Checking accuracy, relevance and faithfulness [Notebook](./Chapters/Chapter-05/rag_evaluations.ipynb)
 
-- Chapter 6 - Evolving RAGOps Stack : Technologies that make RAG possible [Notebook](./Chapters/Chapter-06/advanced_rag.ipynb.ipynb)
+- Chapter 6 - Progression of RAG systems : Naive to Advanced to Modular [Notebook](./Chapters/Chapter-06/advanced_rag.ipynb.ipynb)
 
-- Chapter 7 - Progression of RAG systems : Naive to Advanced to Modular
+- Chapter 7 - Evolving RAGOps Stack : Technologies that make RAG possible
 
 - Chapter 8 - Nuances : Comparison with fine-tuning, multimodal and agentic RAG
 
