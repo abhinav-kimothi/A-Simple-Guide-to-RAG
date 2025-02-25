@@ -155,5 +155,8 @@ cython_debug/
 .env
 requirements 2.txt
 temp.ipynb
-./Chapters/Chapter-05/xtra_benchmarking.ipynb
+Chapters/Chapter-05/xtra_benchmarking.ipynb
+xtra_benchmarking.ipynb
+*.faiss
+*.pkl
 
